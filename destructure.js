@@ -12,4 +12,4 @@ let {age: boyosh} = myObj // destructure age for my object
 
 console.log(boyosh);
 
-console.log(b);
+console.log(b); 
