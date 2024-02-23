@@ -12,8 +12,19 @@ const obj = {
 }
 
 // has some properties, method
-class Product{
-    speak(talk){
-        console.log(`talking about ${talk}`);
-    }
+// class Product{
+//     speak(talk){
+//         console.log(`talking about ${talk}`);
+//     }
+// }
+
+const person = {
+    name: 'Nayeem Khan',
+    job: 'Web Dev',
+    3: 'third'
 }
+const prop = 'job'
+console.log(person.job);
+console.log(person['job']);
+console.log(person[prop]);
+console.log(person['3']);
